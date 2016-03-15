@@ -1,3 +1,4 @@
+package lesson160310;
 
 public class Example06 {
 
