@@ -1,0 +1,14 @@
+034 20 
+504 10
+035 20
+
+LOAD 20
+ADD 10
+STOR 20
+
+INT A
+INT B
+STOR A, 10
+LOAD A     |
+ADD 20     >  A = A + 20
+STOR A     |
