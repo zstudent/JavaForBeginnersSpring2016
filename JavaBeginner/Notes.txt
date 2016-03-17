@@ -1,3 +1,5 @@
+2015_StuD_EpaM
+
 JVM Java Virtual Machine  (java)
 
 JRE (Java Runtime Environment)   JVM + Libraries + some tools 
@@ -5,6 +7,7 @@ JRE (Java Runtime Environment)   JVM + Libraries + some tools
 JDK Java Development Kit  JRE + more tools (javac java compiler, e.t.c.)
 + sources ("исходники")
 
+.jar  -  Java Archive  обычный зип
 
 Write Once Run Anywhere
 
