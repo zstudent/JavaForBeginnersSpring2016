@@ -8,10 +8,10 @@ public class ForLoopExample {
 			System.out.println(i);
 		}
 		
-		int j = 0;
-		while (j < 10) {
-			System.out.println(j);
-			j++;
+		int j = 0; // init
+		while (j < 10) {  // check condition
+			System.out.println(j);  // body
+			j++;  // increment
 		}
 		
 		for (int k = 9; k >= 0; k--) {
