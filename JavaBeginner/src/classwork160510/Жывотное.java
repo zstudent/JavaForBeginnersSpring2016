@@ -1,6 +1,6 @@
-package classwork160505;
+package classwork160510;
 
-public class Animal {
+public class Жывотное {
 	
 	// class members
 	
@@ -10,22 +10,35 @@ public class Animal {
 	private String kind;  // null
 	private boolean isHungry = true;
 	
-	
-	public Animal(String kind, String name) {
-		this.kind = kind;
-		this.name = name;
+	{ // блок инициализации
+		System.out.println("создано очередное жывотное");
+		
 	}
 	
-	public Animal(boolean h, String n, String k ) {
+	public Жывотное(boolean h, String n, String k ) {
 		kind = k;
 		name = n;
 		isHungry = h;
 	}
 	
-	public Animal() {
-		kind = "микроб";
+	{
+		
+	}
+	
+	public Жывотное(String kind) {
+		this.kind = kind;
 		name = "";
-		isHungry = true;
+		isHungry = false;
+	}
+	
+	public Жывотное(String kind, String name) {
+		this(true, name, kind);
+	}
+	
+	
+	public Жывотное() {
+//		this(true, "", "микроб");
+		this("микроб", "");
 	}
 
 	// behavior - поведение
